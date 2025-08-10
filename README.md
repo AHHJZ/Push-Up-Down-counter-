@@ -26,12 +26,12 @@ A lightweight push‑up counter that uses **YOLO11-nano** pose estimation to ext
 
 ```
 / (repo root)
-├─ yolo-main.py                # main script (rename your file to this name)
+├─ yolo-main.py                # main script 
 ├─ README.md                   # this file
 ├─ requirements.txt            # pip requirements
 ├─ models/
-│  ├─ pose_embeddings_yolo11.pkl  # optional: precomputed embeddings (binary)
-│  └─ knn_model_yolo11na.pkl      # optional: trained KNN model (binary)
+│  ├─ pose_embeddings_yolo11.pkl  #  precomputed embeddings (binary)
+│  └─ knn_model_yolo11na.pkl      #  trained KNN model (binary)
 ├─ samples/
 │  └─ sample_pushups.mp4        # optional: sample video demonstrating the model
 ├─ .gitattributes              # (recommended if using Git LFS)
@@ -43,8 +43,8 @@ A lightweight push‑up counter that uses **YOLO11-nano** pose estimation to ext
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/<YOUR_USERNAME>/<YOUR_REPO>.git
-cd <YOUR_REPO>
+git clone https://github.com/AHHJZ/Push-Up-Down-counter.git
+cd Push-Up-Down-counter
 ```
 
 2. (Recommended) create and activate a virtual environment:
