@@ -33,7 +33,7 @@ A lightweight push‑up counter that uses **YOLO11-nano** pose estimation to ext
 │  ├─ pose_embeddings_yolo11.pkl  #  precomputed embeddings (binary)
 │  └─ knn_model_yolo11na.pkl      #  trained KNN model (binary)
 ├─ samples/
-│  └─ sample_pushups.mp4        # optional: sample video demonstrating the model
+│  └─ sample_pushups.mp4        #  sample video demonstrating the model
 ├─ .gitattributes              # (recommended if using Git LFS)
 └─.gitignore
 ```
