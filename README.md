@@ -103,9 +103,6 @@ uvicorn yolo-main:app --host 0.0.0.0 --port 8000
 * If KNN or embedding files are missing, the script will fail when trying to open them — place them in `models/` or adjust paths.
 * For better accuracy: increase the number of labeled images or use a small neural classifier (if you later want to swap KNN with a small MLP).
 
-## License
-
-Choose a license (MIT recommended). Include a `LICENSE` file.
 
 ---
 
