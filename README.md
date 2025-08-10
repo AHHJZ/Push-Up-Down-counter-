@@ -22,21 +22,6 @@ A lightweight push‑up counter that uses **YOLO11-nano** pose estimation to ext
   * Local webcam/video processing (GUI window)
   * Streaming server via FastAPI (`/` endpoint returns MJPEG stream)
 
-## What you will find in this repo
-
-```
-/ (repo root)
-├─ yolo-main.py                # main script 
-├─ README.md                   # this file
-├─ requirements.txt            # pip requirements
-├─ models/
-│  ├─ pose_embeddings_yolo11.pkl  #  precomputed embeddings (binary)
-│  └─ knn_model_yolo11na.pkl      #  trained KNN model (binary)
-├─ samples/
-│  └─ sample_pushups.mp4        #  sample video demonstrating the model
-├─ .gitattributes              # (recommended if using Git LFS)
-└─.gitignore
-```
 
 ## Quickstart
 
