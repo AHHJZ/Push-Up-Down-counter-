@@ -30,3 +30,18 @@ Two run modes:
 Local webcam/video processing (GUI window)
 
 Streaming server via FastAPI (/ endpoint returns MJPEG stream)
+
+
+What you will find in this repo
+/ (repo root)
+├─ yolo-main.py                # main script (rename your file to this name)
+├─ README.md                   # this file
+├─ requirements.txt            # pip requirements
+├─ models/
+│  ├─ pose_embeddings_yolo11.pkl  # optional: precomputed embeddings (binary)
+│  └─ knn_model_yolo11na.pkl      # optional: trained KNN model (binary)
+├─ samples/
+│  └─ sample_pushups.mp4        # optional: sample video demonstrating the model
+├─ .gitattributes              # (recommended if using Git LFS)
+├─ .gitignore
+└─ LICENSE
