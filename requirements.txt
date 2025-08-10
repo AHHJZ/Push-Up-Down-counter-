@@ -1,0 +1,8 @@
+# Minimal recommended Python version: 3.8+
+ultralytics>=8.0
+opencv-python>=4.5
+numpy>=1.21
+scikit-learn>=1.0
+fastapi>=0.85
+uvicorn[standard]>=0.18
+
