@@ -35,8 +35,7 @@ A lightweight push‑up counter that uses **YOLO11-nano** pose estimation to ext
 ├─ samples/
 │  └─ sample_pushups.mp4        # optional: sample video demonstrating the model
 ├─ .gitattributes              # (recommended if using Git LFS)
-├─ .gitignore
-└─ LICENSE
+└─.gitignore
 ```
 
 ## Quickstart
