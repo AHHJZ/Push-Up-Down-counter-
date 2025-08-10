@@ -1,9 +1,3 @@
-# Repository short description (for GitHub `Description` field)
-
-YOLO11-based push-up counter — pose estimation with YOLO11-nano + a lightweight KNN classifier. Counts push-ups from webcam, video file, or RTSP stream.
-
----
-
 # README.md
 
 # YOLO Push‑Up Counter (yolo-main.py)
