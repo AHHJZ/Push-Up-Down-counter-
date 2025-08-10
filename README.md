@@ -68,7 +68,6 @@ pip install -r requirements.txt
 * `models/pose_embeddings_yolo11.pkl`
 * `models/knn_model_yolo11na.pkl`
 
-> **If you include the binary files in the repo:** prefer using **Git LFS** for `.pkl` and large video files. If you prefer not to store them in the repo, upload them to a GitHub Release and link/download them in the README.
 
 5. Configure input source:
 
