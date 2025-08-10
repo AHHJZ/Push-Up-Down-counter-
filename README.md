@@ -225,9 +225,11 @@ If you prefer not to use LFS, skip the `git lfs` steps and instead upload the bi
 
 ---
 
-# Author / Contact
 
-Your name (you can fill in). If you want, I can also prepare the `LICENSE`, `CONTRIBUTING.md` and `download_weights.sh` for you.
+## Author
+Amirhosein Hajizadeh  
+📧 amirhoseinhajizadeh90@gmail.com
+
 
 ---
 
