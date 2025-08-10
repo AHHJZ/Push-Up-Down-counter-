@@ -122,26 +122,6 @@ uvicorn[standard]>=0.18
 
 ---
 
-# .gitattributes (recommended if you use Git LFS)
-
-```
-# Use Git LFS for binary models & sample video
-*.pkl filter=lfs diff=lfs merge=lfs -text
-*.mp4 filter=lfs diff=lfs merge=lfs -text
-```
-
-# .gitignore (suggested)
-
-```
-venv/
-__pycache__/
-*.pyc
-.DS_Store
-.env
-```
-
----
-
 # Where to put the weight files and the sample video
 
 **Option A — add to repo with Git LFS (recommended for reproducibility):**
