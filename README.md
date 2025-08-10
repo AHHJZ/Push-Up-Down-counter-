@@ -231,4 +231,3 @@ Your name (you can fill in). If you want, I can also prepare the `LICENSE`, `CON
 
 ---
 
-*End of generated repo helper doc.*
