@@ -106,7 +106,7 @@ uvicorn yolo-main:app --host 0.0.0.0 --port 8000
 
 ---
 
-# requirements.txt (suggested)
+# requirements.txt 
 
 ```
 # Minimal recommended Python version: 3.8+
