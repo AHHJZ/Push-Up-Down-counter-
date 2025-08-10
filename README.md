@@ -214,14 +214,7 @@ git push origin main
 
 If you prefer not to use LFS, skip the `git lfs` steps and instead upload the binaries under a GitHub Release.
 
----
 
-# Good-to-have extras (suggestions)
-
-* Add a small `scripts/` folder with helper scripts to download weights automatically (using curl or `github` API) so users can `./scripts/download_weights.sh`.
-* Add a small `run_server.sh` that runs `uvicorn` with recommended options.
-* Add a `LICENSE` file (MIT) and a short `CONTRIBUTING.md` if you expect collaborators.
-* Consider adding a simpler CLI wrapper (argparse) so users can pass `--source` and `--model-dir` without editing the script.
 
 ---
 
